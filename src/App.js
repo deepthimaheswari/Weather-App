@@ -6,7 +6,7 @@ function App() {
   const [error, setError] = useState("");
 
   const getWeather = async () => {
-    const apiKey = "272c71659446606270abaa63606ffc44";
+    const apiKey = "Your_API_Key";
 
     try {
       // Step 1: Get coordinates from village/city name
